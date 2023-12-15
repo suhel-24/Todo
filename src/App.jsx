@@ -27,7 +27,7 @@ function App() {
             type="text"
             value={forminput}
             onChange={(e) => setinput(e.target.value)}
-            placeholder="Enter a new todo"
+            placeholder="Enter a new todo here"
           />
           <button type="submit">Submit</button>
         </form>
